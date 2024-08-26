@@ -57,11 +57,9 @@ export default function Hero() {
 
                     <div className="kuvat ml-auto w-44 flex-none space-y-8 pt-10 sm:ml-0 lg:order-last xl:order-none">
                       <div className="relative overflow-hidden">
-                        <Image
+                        <img
                           alt="minä"
                           src="/assets/70.jpg"
-                          width={100}
-                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[70%]"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -69,11 +67,9 @@ export default function Hero() {
                     
 
                       <div className="kuvat relative overflow-hidden">
-                        <Image
+                        <img
                           alt="minä"
                           src="/assets/22.png"
-                          width={100}
-                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[50%]"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -82,21 +78,17 @@ export default function Hero() {
 
                     <div className="kuvat2 mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                       <div className="relative overflow-hidden">
-                        <Image
+                        <img
                           alt="minä"
                           src="/assets/122.jpg"
-                          width={100}
-                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[35%]"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                       </div>
                       <div className="kuvat2 relative overflow-hidden">
-                        <Image
+                        <img
                           alt="minä"
                           src="/assets/93B.jpg"
-                          width={100}
-                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[40%]"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -104,21 +96,17 @@ export default function Hero() {
                     </div>
                     <div className="kuvat2 w-44 flex-none space-y-8 pt-32 sm:pt-0">
                       <div className="relative overflow-hidden">
-                        <Image
+                        <img
                           alt="minä"
                           src="/assets/10.jpg"
-                          width={100}
-                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[1%]"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                       </div>
                       <div className="kuvat2 relative overflow-hidden">
-                        <Image
+                        <img
                           alt="minä"
                           src="/assets/136.jpg"
-                          width={100}
-                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
