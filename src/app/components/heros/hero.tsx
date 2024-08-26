@@ -55,7 +55,7 @@ export default function Hero() {
 
                     <div className="kuvat ml-auto w-44 flex-none space-y-8 pt-10 sm:ml-0 lg:order-last xl:order-none">
                       <div className="relative overflow-hidden">
-                        <img
+                        <Image
                           alt=""
                           src="/assets/70.jpg"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[70%]"
@@ -65,7 +65,7 @@ export default function Hero() {
                     
 
                       <div className="kuvat relative overflow-hidden">
-                        <img
+                        <Image
                           alt=""
                           src="/assets/22.png"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[50%]"
@@ -76,7 +76,7 @@ export default function Hero() {
 
                     <div className="kuvat2 mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
                       <div className="relative overflow-hidden">
-                        <img
+                        <Image
                           alt=""
                           src="/assets/122.jpg"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[35%]"
@@ -84,7 +84,7 @@ export default function Hero() {
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                       </div>
                       <div className="kuvat2 relative overflow-hidden">
-                        <img
+                        <Image
                           alt=""
                           src="/assets/93B.jpg"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[40%]"
@@ -94,7 +94,7 @@ export default function Hero() {
                     </div>
                     <div className="kuvat2 w-44 flex-none space-y-8 pt-32 sm:pt-0">
                       <div className="relative overflow-hidden">
-                        <img
+                        <Image
                           alt=""
                           src="/assets/10.jpg"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[1%]"
@@ -102,7 +102,7 @@ export default function Hero() {
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                       </div>
                       <div className="kuvat2 relative overflow-hidden">
-                        <img
+                        <Image
                           alt=""
                           src="/assets/136.jpg"
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
