@@ -15,6 +15,8 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -24,10 +26,161 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    font-family: 'Poppins', sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: lightblue;
+  font-family: 'Poppins', sans-serif;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; */
+}
+
+.navHeader {
+  background-color: rgba(173, 216, 230, 0);
+  text-align: left;
+  padding: 0px;
+
+}
+
+@media (max-width: 1200px) {
+  .kuvat {
+    display: none;
+} 
+}
+
+
+
+.navHeader a{
+  color: black;  /* This combines width, style, and color */
+  font-size: 25px;
+  background-color: rgba(173, 216, 230, 0);
+}
+
+.Aboutti {
+  background-color: #add8e6;
+  
+} 
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+
+.tää {
+  padding: 10px;
+  border: 3px solid #0000;
+  border-radius: 12px;
+  background: linear-gradient(lightblue, lightblue) padding-box, linear-gradient(
+        var(--angle),
+        #eef123b4,
+        lightblue
+      ) border-box;
+  animation: 10s rotate linear infinite;
+}
+
+
+.tää2 {
+  border: 5px solid #0000;
+  border-radius: 12px;
+  background: linear-gradient(lightblue, lightblue) padding-box, linear-gradient(
+        var(--angle),
+        #f12323b4,
+        rgb(196, 179, 30)
+      ) border-box;
+  animation: 5s rotate linear infinite;
+}
+
+.tausta {
+/*   background-image: url(../../public/assets/tausta.jpg);
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0%;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); */
+}
+
+.tausta h1 {
+  font-size: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 0;
+  color: white;
+  margin-left: 105px;
+  text-shadow: 5px 5px 0px #eb452b, 
+                10px 10px 0px #efa032, 
+                15px 15px 0px #46b59b, 
+                20px 20px 0px #017e7f;
+              /*   25px 25px 0px #052939, 
+                30px 30px 0px #c11a2b, 
+                35px 35px 0px #c11a2b; */
+
+}
+.fsd {
+}
+
+
+.navitausta {
+  color:#017e7f;
+  background-color: #052939;
+}
+
+.produktit {
+  background: lightblue;
+  
+}
+
+.projectsh2 {
+  text-shadow: 5px 5px 0px #eb452b, 
+  10px 10px 0px #efa032;
+}
+
+.projectsh3 {
+  text-shadow:  5px 5px 0px #46b59b, 
+  10px 10px 0px #017e7f;
+}
+
+.projectsh4 {
+  text-shadow:  5px 5px 0px #46b59b, 
+  10px 10px 0px #efa032;
+}
+
+@media (max-width: 1030px) {
+  .kuvat2 {
+    display: none;
+} 
+
+.tää {
+  padding: 10px;
+  border: 3px solid #0000;
+  border-radius: 12px;
+  background: linear-gradient(rgba(173, 216, 230, 0), rgba(173, 216, 230, 0)) padding-box, linear-gradient(
+        var(--angle),
+        #eef12300,
+        rgba(173, 216, 230, 0)
+      ) border-box;
+  animation: 10s rotate linear infinite;
+}
 }
