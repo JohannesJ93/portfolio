@@ -28,7 +28,7 @@ export default function SingleProject() {
                 <h2 className="projectsh4 text-8xl font-bold text-white ">Top Secret</h2>
               </div>
             ) : (
-              <img src={product.imageSrc} className="h-full w-full object-cover  blur" />
+              <Image src={product.imageSrc} className="h-full w-full object-cover  blur" />
             )}
           </div>
 
