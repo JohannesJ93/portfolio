@@ -200,5 +200,17 @@ body {
 
 }
 
+.projectsh2 {
+  font-size: 60px;
+  text-shadow: 5px 5px 0px #eb452b, 
+  10px 10px 0px #efa032;
+}
+
+.projectsh3 {
+  font-size: 60px;
+  text-shadow:  5px 5px 0px #46b59b, 
+  10px 10px 0px #017e7f;
+}
+
 
 }

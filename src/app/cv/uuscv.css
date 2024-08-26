@@ -16,22 +16,6 @@ body {
     min-height: 100vh;
 }
 
-.navHeader {
-    width: 100%; /* Make sure the navHeader spans the entire width */
-    background-color: lightblue;
-    padding: 10px 0; /* Add some padding for spacing */
-    text-align: center; /* Center the content in the header */
-    position: relative; /* Fix the header at the top of the page */
-    top: 0;
-    left: 0;
-    z-index: 1000; /* Ensure the header stays above other content */
-}
-
-.navHeader a {
-    color: black;
-    background-color: lightblue;
-}
-
 
 .container {
     position: relative;
