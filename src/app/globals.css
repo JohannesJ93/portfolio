@@ -120,7 +120,7 @@ body {
 }
 
 .tausta h1 {
-  font-size: 100px;
+  font-size: 80px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   margin-top: 50px;
@@ -130,9 +130,7 @@ body {
   color: white;
   margin-left: 105px;
   text-shadow: 5px 5px 0px #eb452b, 
-                10px 10px 0px #efa032, 
-                15px 15px 0px #46b59b, 
-                20px 20px 0px #017e7f;
+                10px 10px 0px #46b59b; 
               /*   25px 25px 0px #052939, 
                 30px 30px 0px #c11a2b, 
                 35px 35px 0px #c11a2b; */
@@ -163,8 +161,7 @@ body {
 }
 
 .projectsh4 {
-  text-shadow:  5px 5px 0px #46b59b, 
-  10px 10px 0px #efa032;
+  text-shadow:  5px 5px 0px #46b59b;
 }
 
 @media (max-width: 1030px) {
@@ -183,4 +180,25 @@ body {
       ) border-box;
   animation: 10s rotate linear infinite;
 }
+
+
+.tausta h1 {
+  font-size: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 0;
+  color: white;
+  margin-left: 15px;
+  text-shadow: 3px 3px 0px #eb452b, 
+                7px 7px 0px #46b59b; 
+              /*   25px 25px 0px #052939, 
+                30px 30px 0px #c11a2b, 
+                35px 35px 0px #c11a2b; */
+
+}
+
+
 }
