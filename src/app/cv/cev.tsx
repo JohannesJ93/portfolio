@@ -5,6 +5,8 @@ import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CakeIcon from '@mui/icons-material/Cake';
 import PublicIcon from '@mui/icons-material/Public';
+import Image from 'next/image';
+
 
 export default function CV() {
   return (
