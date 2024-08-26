@@ -37,13 +37,13 @@ export default function Hero() {
                       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                         Crafting Digital Solutions with Passion and Precision
                       </h1>
-                      <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
+                      
                       <p>I&apos;m a dedicated software developer, proudly holding a Bachelor&apos;s degree from JAMK, where I graduated while also working at the</p>
                       same time in July 2023.
                         Prior to diving into the world of technology, I competed at the national level in floorball. Today, I channel that same
                         competitive spirit and commitment to excellence into my work as a Software Developer at Meiko, while also still playing
                         some floorball.
-                      </p>
+                      
                       <div className="mt-10 flex items-center gap-x-6">
                         <a
                           href="/cv"
@@ -60,6 +60,8 @@ export default function Hero() {
                         <Image
                           alt="minä"
                           src="/assets/70.jpg"
+                          width={100}
+                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[70%]"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -70,6 +72,8 @@ export default function Hero() {
                         <Image
                           alt="minä"
                           src="/assets/22.png"
+                          width={100}
+                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[50%]"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -81,6 +85,8 @@ export default function Hero() {
                         <Image
                           alt="minä"
                           src="/assets/122.jpg"
+                          width={100}
+                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[35%]"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -89,6 +95,8 @@ export default function Hero() {
                         <Image
                           alt="minä"
                           src="/assets/93B.jpg"
+                          width={100}
+                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[40%]"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -99,6 +107,8 @@ export default function Hero() {
                         <Image
                           alt="minä"
                           src="/assets/10.jpg"
+                          width={100}
+                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg object-[1%]"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -107,6 +117,8 @@ export default function Hero() {
                         <Image
                           alt="minä"
                           src="/assets/136.jpg"
+                          width={100}
+                                        height={100}
                           className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                         />
                         <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />

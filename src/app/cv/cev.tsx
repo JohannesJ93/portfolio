@@ -14,7 +14,7 @@ export default function CV() {
       <div className="left_Side">
         <div className="profileText">
           <div className="imgBx">
-            <Image src="/assets/profiilikuva2.jpg" alt="Profile" />
+            <Image width={200} height={200} src="/assets/profiilikuva2.jpg" alt="Profile" />
           </div>
           <h2>
             Johannes Jokinen
