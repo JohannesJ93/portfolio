@@ -36,8 +36,8 @@ export default function Hero() {
                         Crafting Digital Solutions with Passion and Precision
                       </h1>
                       <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                        I'm a dedicated software developer, proudly holding a Bachelor's degree from JAMK, where I graduated while also working at the 
-                        same time in July 2023.
+                      <p>I&apos;m a dedicated software developer, proudly holding a Bachelor&apos;s degree from JAMK, where I graduated while also working at the</p>
+                      same time in July 2023.
                         Prior to diving into the world of technology, I competed at the national level in floorball. Today, I channel that same
                         competitive spirit and commitment to excellence into my work as a Software Developer at Meiko, while also still playing
                         some floorball.
