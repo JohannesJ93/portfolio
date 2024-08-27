@@ -16,7 +16,7 @@ export default function CurrentProjectsDisplay() {
                 >
                     {/* Title and Description Section */}
                     <div className="text-center mb-10">
-                        <h2 className="projectsh3 text-7xl text-white font-bold tracking-tight">WORKING AT THE MOMENT</h2>
+                        <h2 className="projectsh2 text-7xl text-green-500 font-bold tracking-tight">WORKING AT THE MOMENT</h2>
                         <Divider />
                         
                     

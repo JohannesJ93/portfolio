@@ -9,14 +9,16 @@ import CurrentProjectsDisplay from './components/projectdisplays/currentProjectD
 export default function HomePage() {
   return (
     <div className='tausta'>
-      <Typography variant="h1" gutterBottom>
+     {/*  <Typography variant="h1" gutterBottom>
         Johannes Jokinen
       </Typography>
       <Typography variant="h1" gutterBottom>
        Full Stack Developer
-      </Typography>
+      </Typography> */}
+      
       <ProjectsDisplay/>
-      <CurrentProjectsDisplay/>
+      <div className='tää3'>
+      <CurrentProjectsDisplay/></div>
     </div>
   );
 }

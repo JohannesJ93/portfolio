@@ -5,17 +5,17 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
 body {
-    background: lightblue;
+    background-color: rgba(0, 0, 0, 1);
     display: flex;
     justify-content: center;
     align-items: center; /* Align items at the top */
     flex-direction: column; /* Stack the header and container vertically */
     min-height: 100vh;
 }
-
 
 .container {
     position: relative;
@@ -240,6 +240,15 @@ p {
     width: 20px;
 }
 
+.naviikoni {
+    color:rgb(255, 255, 255) ;
+    position: fixed;
+    z-index: 9999;
+    margin-top: 10px;
+    margin-left: 90%;
+    background-color: black;
+  }
+
 .container .right_Side {
     position: relative;
     background: #fff;
@@ -248,7 +257,7 @@ p {
 
 @media (max-width: 1000px) {
     .container {
-        margin: 160px 10px 10px; /* Adjusted margin for responsiveness */
+      /*   margin: 20px 10px 10px;  *//* Adjusted margin for responsiveness */
         grid-template-columns: repeat(1, 1fr);
     }
 

@@ -22,9 +22,9 @@ export default function ProjectsDisplay() {
                 >
                     {/* Title and Description Section */}
                     <div className="text-center mb-10">
-                        <h2 className="projectsh2 text-7xl text-white font-bold tracking-tight">PROJECTS</h2>
+                        <h2 className="projectsh2 otsikkoja  text-7xl text-green-500 font-bold tracking-tight">PROJECTS</h2>
                         <Divider />
-                        <p className="mt-4 text-xl font-bold text-black">
+                        <p className="mt-4 text-xl font-bold text-green-500 glow-blue">
                             Each project teaches something. You just need to be ready to learn with an open mind.
                         </p>
                     </div>
@@ -35,7 +35,7 @@ export default function ProjectsDisplay() {
                         <a className="group block mb-12 lg:mb-20">
                             <div
                                 aria-hidden="true"
-                                className="bg-yellow-100 aspect-h-2 border-2 border-blue-400 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
+                                className="bg-yellow-100 aspect-h-2 border-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
                             >
                                 <img
                                     id="1"
@@ -45,8 +45,8 @@ export default function ProjectsDisplay() {
                                 />
                                 <CustomizedDialogs />
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold text-black">Warehouse Management System</h3>
-                            <p className="mt-2 text-sm text-black">
+                            <h3 className="mt-4 text-xl font-semibold text-green-500 glow-blue">Warehouse Management System</h3>
+                            <p className="mt-2  text-green-500">
                                 Frontend development, UI design, and development with Angular. Creating user-centric interfaces for a warehouse management system.
                             </p>
                         </a>
@@ -55,7 +55,7 @@ export default function ProjectsDisplay() {
                         <a href="#" className="group block mb-12 lg:mb-0">
                             <div
                                 aria-hidden="true"
-                                className="bg-yellow-100 border-2 border-blue-400 aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
+                                className="bg-yellow-100 border-2 border-green-400 aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
                             >
                                 <img
                                     id="2"
@@ -65,8 +65,8 @@ export default function ProjectsDisplay() {
                                 />
                                 <KaupunkitilatDialog/>
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold text-black">Market reservation service</h3>
-                            <p className="mt-2 text-sm text-black">
+                            <h3 className="mt-4 text-xl font-semibold text-green-500 glow-blue">Market reservation service</h3>
+                            <p className="mt-2  text-green-500 ">
                             Backend development with Laravel. 
                             </p>
                         </a>
@@ -85,8 +85,8 @@ export default function ProjectsDisplay() {
                                 />
                                  <ElyDialog/>
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold text-black">Ely-Center</h3>
-                            <p className="mt-2 text-sm text-black">
+                            <h3 className="mt-4 text-xl font-semibold text-green-500 glow-blue">Ely-Center</h3>
+                            <p className="mt-2  text-green-500 ">
                             Automating Excel data handling tasks with Python.
                             </p>
                         </a>
@@ -95,7 +95,7 @@ export default function ProjectsDisplay() {
                          <a href="#" className="group block mb-12 lg:mb-0">
                             <div
                                 aria-hidden="true"
-                                className="bg-yellow-100 border-2 border-blue-400 aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
+                                className="bg-yellow-100 border-2 border-green-400 aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
                             >
                                 <img
                                     id="2"
@@ -105,8 +105,8 @@ export default function ProjectsDisplay() {
                                 />
                                 <ThesisDialog/>
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold text-black">Thesis</h3>
-                            <p className="mt-2 text-sm text-black">
+                            <h3 className="mt-4 text-xl font-semibold text-green-500 glow-blue">Thesis</h3>
+                            <p className="mt-2  text-green-500 ">
                             Full stack application with Python backend, Angular frontend and MySql databases.
                             </p>
                         </a>
@@ -115,7 +115,7 @@ export default function ProjectsDisplay() {
                          <a href="#" className="group block mb-12 lg:mb-0">
                             <div
                                 aria-hidden="true"
-                                className="bg-yellow-100 border-2 border-blue-400 aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
+                                className="bg-yellow-100 border-2 border-green-400 aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
                             >
                                 <img
                                     id="2"
@@ -124,8 +124,8 @@ export default function ProjectsDisplay() {
                                     className="aspect-[2/3]  rounded-xl bg-blue-200 object-cover shadow-lg object-[25%] scale-125 mt-[15px]"
                                 /><AcornDialog/>
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold text-black">Acorn</h3>
-                            <p className="mt-2 text-sm text-black">
+                            <h3 className="mt-4 text-xl font-semibold text-green-500 glow-blue">Acorn</h3>
+                            <p className="mt-2  text-green-500 ">
                             Six months long school project with a group of five students. 
                             </p>
                         </a>
@@ -134,7 +134,7 @@ export default function ProjectsDisplay() {
                          <a href="#" className="group block mb-12 lg:mb-0">
                             <div
                                 aria-hidden="true"
-                                className="bg-yellow-100 border-2 border-blue-400 aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
+                                className="bg-yellow-100 border-2 border-green-400 aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:aspect-h-6 lg:aspect-w-5 group-hover:opacity-75"
                             >
                                 <img
                                     id="2"
@@ -143,8 +143,8 @@ export default function ProjectsDisplay() {
                                     className="aspect-[2/3]  rounded-xl  object-cover shadow-lg scale-125 object-[50%] mt-[55px]"
                                 /><PortfolioDialog/>
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold text-black">Portfolio</h3>
-                            <p className="mt-2 text-sm text-black">
+                            <h3 className="mt-4 text-xl font-semibold text-green-500 glow-blue">Portfolio</h3>
+                            <p className="mt-2  text-green-500 ">
                             This website is made with Next.js framework 
                             </p>
                         </a>

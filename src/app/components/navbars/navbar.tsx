@@ -16,7 +16,10 @@ export default function NavBar() {
 
   return (
     <header className="navHeader poppins">
-      <nav aria-label="  Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 sm:px-8">
+      <nav aria-label="  Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 sm:px-8"
+      style={{ backgroundColor: 'rgba(0, 0, 0, 1)' }}
+
+      >
         <div className="flex sm:flex-1">
          {/*  <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
@@ -30,12 +33,14 @@ export default function NavBar() {
             className=" -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-400"
           >
             <span className="sr-only">Open main menu</span>
-            <Bars3Icon aria-hidden="true" className="h-6 w-6" />
+            <Bars3Icon aria-hidden="true" className="naviikoni h-6 w-6" 
+            
+            />
           </button>
         </div>
         <div className="hidden sm:flex sm:gap-x-12">
           {navigation.map((item) => (
-            <a  key={item.name} href={item.href} className=" text-sm font-semibold leading-6 text-white">
+            <a  key={item.name} href={item.href} className=" text-sm font-semibold leading-6 text-white glow-blue">
               {item.name}
             </a>
           ))}

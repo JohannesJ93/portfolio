@@ -3,14 +3,17 @@ import React from 'react';
 import Paper from '@mui/material/Paper';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Image from 'next/image';
+import TestPage from '../../test/page';
+
 
 
 const lightTheme = createTheme({ palette: { mode: 'light' } });
 
 export default function Hero() {
   return (
+    
     <ThemeProvider theme={lightTheme}>
-      <div className="Aboutti">
+      <div>
         <main>
           <div className="relative isolate">
             <div
@@ -19,7 +22,7 @@ export default function Hero() {
             >
               <div />
             </div>
-            <div className="overflow-hidden">
+            <div className="overflow-hidden min500">
               <div className=" mx-auto max-w-7xl px-6 pb-32  lg:px-8 ">
                 <div className="tää mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
                   <Paper
@@ -28,21 +31,21 @@ export default function Hero() {
                       p: 4,
                       mb: 0,
                       borderRadius: 8,
-                      backgroundColor: 'transparent', // No background color
+                      backgroundColor: 'green', // No background color
                       /*  boxShadow: '0px 4px 20px rgba(0, 0, 0, 0.1)', // Customize shadow
                        border: '1px solid rgba(0, 0, 0, 0.12)', // Optional: Light border for better visibility */
                     }}
                   >
-                    <div className=" relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-                      <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                    <div className="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
+                      <h2 className="otsikko  font-bold tracking-tight text-yellow-200 ">
                         Crafting Digital Solutions with Passion and Precision
-                      </h1>
+                      </h2>
                       
-                      <p>I&apos;m a dedicated software developer, proudly holding a Bachelor&apos;s degree from JAMK, where I graduated while also working at the</p>
+                      <p className="font-bold text-xl  ">I&apos;m a dedicated software developer, proudly holding a Bachelor&apos;s degree from JAMK, where I graduated while also working at the
                       same time in July 2023.
                         Prior to diving into the world of technology, I competed at the national level in floorball. Today, I channel that same
                         competitive spirit and commitment to excellence into my work as a Software Developer at Meiko, while also still playing
-                        some floorball.
+                        some floorball.</p>
                       
                       <div className="mt-10 flex items-center gap-x-6">
                         <a

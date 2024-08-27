@@ -10,7 +10,6 @@ export default function AboutPage() {
     <div className='poppins'>
     <Hero />
     <div className=''>
-   {/*  <Contact/> */}
     </div>
     </div>
     </div>

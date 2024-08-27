@@ -10,7 +10,7 @@ import Image from 'next/image';
 
 export default function CV() {
   return (
-    <div className="container ceeveepala">
+    <div className="container">
       <div className="left_Side">
         <div className="profileText">
           <div className="imgBx">

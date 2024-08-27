@@ -4,6 +4,7 @@ import "./globals.css";
 import ClientOnlyThemeProvider from '../ClientOnlyThemeProvider'; // Adjust the path as necessary
 import Link from 'next/link';
 import NavBar from "./components/navbars/navbar";
+import TestPage from "./test/page";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ClientOnlyThemeProvider>
+          <TestPage/>
           <NavBar />
           {children}
         </ClientOnlyThemeProvider>

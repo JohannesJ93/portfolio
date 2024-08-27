@@ -25,7 +25,7 @@ export default function SingleProject() {
           >
             {hovered ? (
               <div className="flex items-center justify-center w-full h-full bg-black">
-                <h2 className="projectsh4 text-8xl font-bold text-white">Top Secret</h2>
+                <h2 className="projectsh2 text-8xl font-bold text-green-500">Top Secret</h2>
               </div>
             ) : (
               <Image
@@ -43,13 +43,13 @@ export default function SingleProject() {
         <div className="mx-auto mt-14 max-w-2xl sm:mt-16 lg:col-span-3 lg:row-span-2 lg:row-end-2 lg:mt-0 lg:max-w-none">
           <div className="flex flex-col-reverse">
             <div className="mt-4">
-              <h2 className="text-2xl font-bold tracking-tight text-black sm:text-3xl text-center">
+              <h2 className="text-2xl font-bold tracking-tight text-green-500 glow-blue sm:text-3xl text-center">
                 {product.name}
               </h2>
             </div>
           </div>
 
-          <p className="mt-6 ml-6 text-black text-left">
+          <p className="mt-6 ml-6 text-green-500 text-left">
             Generating code is essential because it significantly boosts productivity,
             allowing developers to automate repetitive tasks and focus on more complex aspects of a project. <br/><br/>
             It ensures consistency across the codebase, reducing the likelihood of errors and making the code easier to maintain.

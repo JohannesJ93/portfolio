@@ -2,44 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-    font-family: 'Poppins', sans-serif;
+.particles-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: -1; 
+  background-color: black;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
 
 .poppins {
   font-family: 'Poppins', sans-serif;
+  
 }
 body {
-  background: lightblue;
+  background-color: rgba(0, 0, 0, 1);
   font-family: 'Poppins', sans-serif;
   /* display: flex;
   justify-content: center;
@@ -48,7 +28,7 @@ body {
 }
 
 .navHeader {
-  background-color: rgba(173, 216, 230, 0);
+  background-color: rgba(0, 0, 0, 0.9);
   text-align: left;
   padding: 0px;
 
@@ -60,18 +40,17 @@ body {
 } 
 }
 
-
+.väri {
+  background-color: rgba(0, 0, 0, 0.9);
+}
 
 .navHeader a{
-  color: black;  /* This combines width, style, and color */
+  color: #08c002;  /* This combines width, style, and color */
   font-size: 25px;
   background-color: rgba(173, 216, 230, 0);
 }
 
-.Aboutti {
-  background-color: #add8e6;
-  
-} 
+
 
 @keyframes rotate {
   to {
@@ -84,19 +63,40 @@ body {
   initial-value: 0deg;
   inherits: false;
 }
-
+.glow-blue {
+  color: #ffffff; /* Text color */
+  text-shadow: 
+    0 0 10px rgba(60, 255, 0, 0.493),  /* Blue glow */
+    0 0 20px rgba(60, 255, 0, 0.4),  /* Larger blue glow */
+    0 0 20px rgba(60, 255, 0, 0.2);  /* Largest blue glow */
+}
 
 .tää {
   padding: 10px;
+  padding-left: 25px;
   border: 3px solid #0000;
   border-radius: 12px;
-  background: linear-gradient(lightblue, lightblue) padding-box, linear-gradient(
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) padding-box, linear-gradient(
         var(--angle),
-        #eef123b4,
-        lightblue
+        #eef12300,
+        rgba(43, 247, 2, 0.548)
       ) border-box;
-  animation: 10s rotate linear infinite;
+  animation: 20s rotate linear infinite;
 }
+
+
+.tää3 {
+ 
+ 
+  border-top: 3px solid #0000;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) padding-box, linear-gradient(
+        var(--angle),
+        #eef12300,
+        rgba(223, 247, 2, 0.548)
+      ) border-box;
+  animation: 15s rotate linear infinite;
+}
+
 
 
 .tää2 {
@@ -110,15 +110,6 @@ body {
   animation: 5s rotate linear infinite;
 }
 
-.tausta {
-/*   background-image: url(../../public/assets/tausta.jpg);
-  min-height: 300px;
-  background-size: cover;
-  background-position: center;
-  margin-top: 0%;
-  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); */
-}
-
 .tausta h1 {
   font-size: 80px;
   font-family: 'Poppins', sans-serif;
@@ -127,32 +118,24 @@ body {
   margin-bottom: 50px;
   text-align: center;
   padding: 0;
-  color: white;
+  color: rgb(41, 255, 13);
   margin-left: 105px;
-  text-shadow: 5px 5px 0px #eb452b, 
-                10px 10px 0px #46b59b; 
-              /*   25px 25px 0px #052939, 
-                30px 30px 0px #c11a2b, 
-                35px 35px 0px #c11a2b; */
+  text-shadow: 
+  0 0 10px rgba(60, 255, 0, 0.493),  /* Blue glow */
+  0 0 20px rgba(60, 255, 0, 0.2);  /* Largest blue glow */
 
 }
-.fsd {
+
+.otsikkoja {
+  margin-top: -100px;
 }
 
-
-.navitausta {
-  color:#017e7f;
-  background-color: #052939;
-}
-
-.produktit {
-  background: lightblue;
-  
-}
-
-.projectsh2 {
-  text-shadow: 5px 5px 0px #eb452b, 
-  10px 10px 0px #efa032;
+.naviikoni {
+  color:rgb(255, 255, 255) !important ;
+  position: fixed;
+  z-index: 9999;
+  margin-top: 10px;
+  background-color: black;
 }
 
 .projectsh3 {
@@ -164,22 +147,15 @@ body {
   text-shadow:  5px 5px 0px #46b59b;
 }
 
+.otsikko {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
 @media (max-width: 1030px) {
   .kuvat2 {
     display: none;
 } 
-
-.tää {
-  padding: 10px;
-  border: 3px solid #0000;
-  border-radius: 12px;
-  background: linear-gradient(rgba(173, 216, 230, 0), rgba(173, 216, 230, 0)) padding-box, linear-gradient(
-        var(--angle),
-        #eef12300,
-        rgba(173, 216, 230, 0)
-      ) border-box;
-  animation: 10s rotate linear infinite;
-}
 
 
 .tausta h1 {
@@ -200,17 +176,38 @@ body {
 
 }
 
-.projectsh2 {
-  font-size: 60px;
-  text-shadow: 5px 5px 0px #eb452b, 
-  10px 10px 0px #efa032;
-}
+
 
 .projectsh3 {
   font-size: 60px;
   text-shadow:  5px 5px 0px #46b59b, 
   10px 10px 0px #017e7f;
 }
+.projectsh2 {
+  font-size: 50px;
+  
+}
 
+.tää {
+  padding: 0px;
+  padding-left: 0px;
+  border: 0px solid #0000;
+  border-radius: 12px;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) padding-box, linear-gradient(
+        var(--angle),
+        #eef12300,
+        rgba(43, 247, 2, 0)
+      ) border-box;
+  animation: 20s rotate linear infinite;
+}
+.otsikko {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.min500
+{
+  min-height: 500px;
+}
 
 }
