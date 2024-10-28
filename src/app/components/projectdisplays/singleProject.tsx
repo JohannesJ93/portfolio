@@ -3,10 +3,10 @@ import { useState } from 'react'
 import Image from 'next/image';
 
 const product = {
-  name: 'Code generator for multiple programming languages',
+  name: 'Code generator for multiple programming languages: SnappCode',
   description:
     'Generating code is essential because it significantly boosts productivity, allowing developers to automate repetitive tasks and focus on more complex aspects of a project. It ensures consistency across the codebase, reducing the likelihood of errors and making the code easier to maintain. By standardizing code structures and patterns, it also facilitates collaboration among team members. Additionally, code generation adapts quickly to changes, allowing for rapid updates across the entire project, saving time and effort. Overall, it streamlines development, improves code quality, and accelerates the delivery of reliable software.',
-  imageSrc: '/assets/generateit.png',
+  imageSrc: '/assets/ph1.png',
   altSrc: 'secret',
 }
 
@@ -23,19 +23,14 @@ export default function SingleProject() {
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
           >
-            {hovered ? (
-              <div className="flex items-center justify-center w-full h-full bg-black">
-                <h2 className="projectsh2 text-8xl font-bold text-green-500">Top Secret</h2>
-              </div>
-            ) : (
-              <Image
-                src={product.imageSrc}
-                alt={product.altSrc}
-                layout="fill"  // or "responsive", "intrinsic", etc.
-                objectFit="cover"
-                className="h-full w-full object-cover blur"
-              />
-            )}
+            <Image
+              src={product.imageSrc}
+              alt={product.altSrc}
+              layout="fill"           // Keeps image full height and width
+              objectFit="cover"       // Ensures image covers the container fully
+              objectPosition="top left" // Positions the image from the top-left corner
+              className="h-full w-full"
+            />
           </div>
         </div>
 
@@ -44,7 +39,13 @@ export default function SingleProject() {
           <div className="flex flex-col-reverse">
             <div className="mt-4">
               <h2 className="text-2xl font-bold tracking-tight text-green-500 glow-blue sm:text-3xl text-center">
-                {product.name}
+                <a 
+                  href="https://www.snappcode.eu" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  {product.name}
+                </a>
               </h2>
             </div>
           </div>
