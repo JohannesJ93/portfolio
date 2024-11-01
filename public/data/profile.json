@@ -1,0 +1,137 @@
+{
+    "profile": {
+      "name": "Johannes Jokinen",
+      "title": "Software Developer",
+      "contact": {
+        "phone": "+358 50 5353 220",
+        "email": "johannes.jokinen_93@hotmail.com",
+        "location": "Jyväskylä, Finland",
+        "birthdate": "12.05.1993"
+      },
+      "education": [
+    {
+      "year": "2019 - 2023",
+      "institution": "Jyväskylä University of Applied Sciences",
+      "degree": "Bachelor of Business Information Technology",
+      "skills": ["education", "study", "school", "university", "degree", "business", "management", "information technology"]
+    },
+    {
+      "year": "2012 - 2013",
+      "institution": "Lahden Urheilujoukot",
+      "degree": "Management Training",
+      "skills": ["education", "study", "school", "management", "training", "business"]
+    },
+    {
+      "year": "2010 - 2015",
+      "institution": "Jyväskylän Vocational School",
+      "degree": "Vocational Qualification for Business",
+      "skills": ["education", "study", "vocational", "qualification", "business"]
+    }
+]
+
+        ,
+      "projects": [
+        {
+          "name": "Warehouse Management System",
+          "description": "Frontend development, UI design, and development with Angular. Creating user-centric interfaces for a warehouse management system.",
+          "skills": ["Frontend Development", "UI Design", "Angular"]
+        },
+        {
+          "name": "Market Reservation Service",
+          "description": "Backend development with Laravel.",
+          "skills": ["Backend Development", "Laravel"]
+        },
+        {
+          "name": "Ely-Center",
+          "description": "Automating Excel data handling tasks with Python.",
+          "skills": ["Python", "Data Automation", "Excel"]
+        },
+        {
+          "name": "Thesis",
+          "description": "Full stack application with Python backend, Angular frontend, and MySQL databases.",
+          "skills": ["Full Stack Development", "Python", "Angular", "MySQL"]
+        },
+        {
+          "name": "Acorn",
+          "description": "Six-month school project with a group of five students.",
+          "skills": ["Angular", "Node.js"]
+        },
+        {
+          "name": "Portfolio",
+          "description": "This website is made with the Next.js framework.",
+          "skills": ["Next.js", "Web Development"]
+        },
+        {
+          "name": "SnappCode",
+          "description": "An application designed to generate backend and frontend code in multiple languages. Built to help developers focus more on creative and innovative tasks.",
+          "skills": ["Code Generation", "Backend Development", "Frontend Development", "Full Stack Development", "Laravel", "React"]
+        }
+      ],
+      "experience": [
+        {
+          "year": "2023 - present",
+          "company": "Meiko",
+          "position": "Fullstack Developer",
+          "description": "Developing different projects using Laravel and React.",
+          "skills": ["Full Stack Development", "Laravel", "React"]
+        },
+        {
+          "year": "2023",
+          "company": "Ely-Center",
+          "position": "Software Developer",
+          "description": "Automating Excel data handling tasks with Python.",
+          "skills": ["Python", "Data Automation", "Excel"]
+        },
+        {
+          "year": "2021 - 2023",
+          "company": "Lemonsoft / Metsys",
+          "position": "Software Developer",
+          "description": "Frontend development, UI design, and development with Angular. Creating user-centric interfaces for a warehouse management system.",
+          "skills": ["Frontend Development", "UI Design", "Angular"]
+        },
+        {
+          "year": "2021",
+          "company": "Aksulit",
+          "position": "General Worker",
+          "description": "Constructing, testing, and performing operational tasks for customer projects, including setting up a pilot environment and building a customer-specific operating environment with networked computers and NFC readers.",
+          "skills": ["Operations", "Testing", "Network Setup"]
+        },
+        {
+          "year": "2018 - 2019",
+          "company": "Eberhard",
+          "position": "Warehouse Worker",
+          "description": "Repairing water pipes, performing metal engravings, and fixing construction site tools.",
+          "skills": ["Repair", "Metal Engraving", "Tools Maintenance"]
+        },
+        {
+          "year": "2017 - 2018",
+          "company": "Linköping / Kalmarsund",
+          "position": "Floorball Player",
+          "description": "Playing floorball professionally.",
+          "skills": ["Professional Sports", "Teamwork"]
+        },
+        {
+          "year": "2016 - 2017",
+          "company": "Burri Public Elements",
+          "position": "Painter",
+          "description": "Painting wood and metalwork.",
+          "skills": ["Painting", "Woodwork", "Metalwork"]
+        },
+        {
+          "year": "2015",
+          "company": "Tietoakseli",
+          "position": "Trainee",
+          "description": "Accounting for three companies, preparing financial statements, managing travel invoices, and performing office work.",
+          "skills": ["Accounting", "Financial Statements", "Office Work"]
+        },
+        {
+          "year": "2014",
+          "company": "Keski-Suomen Liikepalvelut",
+          "position": "Trainee",
+          "description": "Accounting, preparing financial statements, and performing other office work.",
+          "skills": ["Accounting", "Financial Statements", "Office Work"]
+        }
+      ]
+    }
+  }
+  

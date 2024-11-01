@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import Link from 'next/link';
 import ProjectsDisplay from './components/projectdisplays/projectsdisplay'
 import CurrentProjectsDisplay from './components/projectdisplays/currentProjectDisplay';
+import Chatbot from './components/chatbot/Chatbot';
 
 export default function HomePage() {
   return (
@@ -15,7 +16,7 @@ export default function HomePage() {
       <Typography variant="h1" gutterBottom>
        Full Stack Developer
       </Typography> */}
-      
+      <Chatbot/> 
       <ProjectsDisplay/>
       <div className='tää3'>
       <CurrentProjectsDisplay/></div>
