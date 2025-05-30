@@ -6,6 +6,7 @@ import ElyDialog from '../dialogs/elyDialog';
 import ThesisDialog from '../dialogs/thesisDialog';
 import AcornDialog from '../dialogs/acornDialog'
 import PortfolioDialog from '../dialogs/portfolioDialog';
+import SnappcodeDialog from '../dialogs/snappcodedialog';
 
 export default function ProjectsDisplay() {
     return (
@@ -139,13 +140,13 @@ export default function ProjectsDisplay() {
                                 <img
                                     id="2"
                                     alt="Organized Desk Collection"
-                                    src="/assets/aboutti.png"
-                                    className="aspect-[2/3]  rounded-xl  object-cover shadow-lg scale-125 object-[50%] mt-[55px]"
-                                /><PortfolioDialog/>
+                                    src="/assets/ph1.png"
+                                    className="aspect-[2/3]  rounded-xl  object-cover shadow-lg scale-125 object-[-7%] mt-[-5px]"
+                                /><SnappcodeDialog/>
                             </div>
-                            <h3 className="mt-4 text-xl font-semibold text-green-500 glow-blue">Portfolio</h3>
+                            <h3 className="mt-4 text-xl font-semibold text-green-500 glow-blue">Snappcode</h3>
                             <p className="mt-2  text-green-500 ">
-                            This website is made with Next.js framework 
+                            Code generator for faster developement
                             </p>
                         </a>
                     </div>

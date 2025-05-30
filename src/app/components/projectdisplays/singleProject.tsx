@@ -1,12 +1,11 @@
 'use client'
 import { useState } from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 const product = {
-  name: 'Code generator for multiple programming languages: SnappCode',
-  description:
-    'Generating code is essential because it significantly boosts productivity, allowing developers to automate repetitive tasks and focus on more complex aspects of a project. It ensures consistency across the codebase, reducing the likelihood of errors and making the code easier to maintain. By standardizing code structures and patterns, it also facilitates collaboration among team members. Additionally, code generation adapts quickly to changes, allowing for rapid updates across the entire project, saving time and effort. Overall, it streamlines development, improves code quality, and accelerates the delivery of reliable software.',
-  imageSrc: '/assets/ph1.png',
+  name: 'App for making shopping more easy: Kauppis App',
+  imageSrc: '/assets/kauppiskuva.png',
   altSrc: 'secret',
 }
 
@@ -16,21 +15,22 @@ export default function SingleProject() {
   return (
     <div className="">
       <div className="bg-transparent lg:grid lg:grid-cols-7 lg:grid-rows-1">
-        
+
         <div className="tää2 lg:col-span-4 lg:row-end-1">
           <div
             className="aspect-h-3 aspect-w-4 overflow-hidden rounded-lg bg-gray-100 flex justify-center items-center"
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
           >
-            <Image
-              src={product.imageSrc}
-              alt={product.altSrc}
-              layout="fill"           // Keeps image full height and width
-              objectFit="cover"       // Ensures image covers the container fully
-              objectPosition="top left" // Positions the image from the top-left corner
-              className="h-full w-full"
-            />
+            <a href="https://kauppis.com" target="_blank" rel="noopener noreferrer">
+              <Image
+                src={product.imageSrc}
+                alt={product.altSrc}
+                layout="fill"           // Keeps image full height and width
+                objectFit="cover"       // Ensures image covers the container fully
+                objectPosition="-25px top" // Positions the image from the top-left corner
+                className="h-full w-full"
+              /></a>
           </div>
         </div>
 
@@ -39,9 +39,9 @@ export default function SingleProject() {
           <div className="flex flex-col-reverse">
             <div className="mt-4">
               <h2 className="text-2xl font-bold tracking-tight text-green-500 glow-blue sm:text-3xl text-center">
-                <a 
-                  href="https://www.snappcode.eu" 
-                  target="_blank" 
+                <a
+                  href="https://www.kauppis.com"
+                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   {product.name}
@@ -51,13 +51,18 @@ export default function SingleProject() {
           </div>
 
           <p className="mt-6 ml-6 text-green-500 text-left">
-            Generating code is essential because it significantly boosts productivity,
-            allowing developers to automate repetitive tasks and focus on more complex aspects of a project. <br/><br/>
-            It ensures consistency across the codebase, reducing the likelihood of errors and making the code easier to maintain.
-            By standardizing code structures and patterns, it also facilitates collaboration among team members. <br/><br/>
-            Additionally, code generation adapts quickly to changes, allowing for rapid updates across the entire project,
-            saving time and effort. Overall, it streamlines development, improves code quality, and accelerates the delivery of
-            reliable software.
+            I basically started developing the app since I used to always forget to buy something from the store.
+            Also I noticed that there were not so much great options to manage data from recipes to shopping 
+            lists, so the app also works for that.
+            <br /><br />
+            The app has couple of AI features that make life more simple, for example there is optimized shopping 
+            routes, that lets me put the list items in the order I usually walk trough the store.
+            <br /><br />
+            Additionally, the app adapts quickly to real-world needs with its PWA capabilities,
+             role-based access, and dynamic image handling,
+            saving users time and frustration. 
+              <br /><br />
+              At the moment it is at testing phase at kauppis.com.
           </p>
         </div>
       </div>
